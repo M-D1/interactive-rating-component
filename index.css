@@ -95,10 +95,19 @@ input:focus{
  width: 1px;
  height: 1px;
  overflow: hidden;
-} */
+}  */
  
+input{
+     position: absolute;
+      width: 1px;
+      height: 1px;
+      left: -100px
+}
+
+
+
 /*
-*/
+
   /* .hide-element {
    border: 0;
    clip: rect(1px 1px 1px 1px);
