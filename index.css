@@ -99,7 +99,7 @@ input:focus{
  
 /*
 */
-  .hide-element {
+  /* .hide-element {
    border: 0;
    clip: rect(1px 1px 1px 1px);
    
@@ -110,7 +110,7 @@ input:focus{
    padding: 0;
    position: absolute;
    width: 1px;
-  }
+  } */
 
 
 .thanks-container{
