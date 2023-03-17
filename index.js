@@ -14,18 +14,17 @@ document.addEventListener('click',function(e){
 
 
 function handleClick(id){
- const input = document.getElementById(id)
-
+  const input = document.getElementById(id)
+  input.blur()
  
  
- const labels = document.getElementsByTagName('label')
+  const labels = document.getElementsByTagName('label')
 
- for(const label of labels){
-  label.classList.remove('label-bg')
- }
- const label = document.getElementById(id).parentElement
- console.log(label)
+  for(const label of labels){
+    label.classList.remove('label-bg')
 
+  }
+  const label = document.getElementById(id).parentElement
 
 
   label.classList.add('label-bg')
