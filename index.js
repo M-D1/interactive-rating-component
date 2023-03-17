@@ -28,11 +28,13 @@ function handleClick(id){
 
 
 
- label.classList.add('label-bg')
+  label.classList.add('label-bg')
 
- rating.textContent = `You selected ${input.value} out of 5`
+  rating.textContent = `You selected ${input.value} out of 5`
 
- isSelected = true
+  isSelected = true
+
+ 
  
  
 }

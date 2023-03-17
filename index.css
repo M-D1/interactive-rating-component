@@ -52,10 +52,13 @@ label{
   transition: background-color 500ms, color 500ms;
 }
 label:hover
-,label:focus
 {
  background-color: hsl(216, 12%, 54%);
  color: #fff;
+}
+label:focus-within{
+  background-color: hsl(25, 97%, 53%);
+  color: white;
 }
 button{
  background-color: hsl(25, 97%, 53%);
@@ -79,8 +82,8 @@ button:focus{
 }
 label:active{
 
-      background: rgb(197, 185, 185);
-      box-shadow: inset 0px 0px 5px #eee;
+  background: rgb(197, 185, 185);
+  box-shadow: inset 0px 0px 5px #eee;
 }
 .label-bg{
  background-color:hsl(25, 97%, 53%) ;
@@ -88,38 +91,16 @@ label:active{
 }
 
 
-/* .sr-only {
- position: absolute;
- left: -10000px;
- top: auto;
- width: 1px;
- height: 1px;
- overflow: hidden;
-}  */
- 
+
+
 input{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    left: -100px
+  appearance: none;
+  margin-right: -.5em;
+  
 }
 
 
 
-/*
-
-  /* .hide-element {
-   border: 0;
-   clip: rect(1px 1px 1px 1px);
-   
-   clip: rect(1px, 1px, 1px, 1px);
-   height: 1px;
-   margin: -1px;
-   overflow: hidden;
-   padding: 0;
-   position: absolute;
-   width: 1px;
-  } */
 
 
 .thanks-container{
