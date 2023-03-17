@@ -2,6 +2,7 @@
 const form = document.querySelector('.form')
 const thanksContainer = document.querySelector('.thanks-container')
 const error = document.querySelector('.error')
+const rating = document.querySelector('.rating')
 
 let isSelected = false
 document.addEventListener('click',function(e){
@@ -16,9 +17,9 @@ function handleClick(id){
  const input = document.getElementById(id)
 
  
- const rating = document.querySelector('.rating')
+ 
  const labels = document.getElementsByTagName('label')
- console.log(labels)
+
  for(const label of labels){
   label.classList.remove('label-bg')
  }
@@ -42,6 +43,11 @@ form.addEventListener('submit',function(e){
  }else{
    form.style.display = 'none'
    thanksContainer.style.display = 'block'
+   setTimeout(()=>{
+    window.location.reload()
+    },1500)
  }
+
+
 
 })
